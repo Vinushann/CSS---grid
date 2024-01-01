@@ -1,0 +1,16 @@
+.container{
+/* make the container as flexbox */
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+/* remove the bullets */
+.container li{
+  list-style: none;
+}
+
+/* remove the underlines */
+.container li a{
+  text-decoration: none;
+}
